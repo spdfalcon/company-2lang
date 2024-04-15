@@ -1,31 +1,19 @@
-import Image from "next/image";
+import { Metadata } from "next";
+import Navbar from "./_components/templates/Navbar";
 
 export default function Home() {
   return (
     <>
-    <div className="font-yekanbakh gradi">
-      <h2 className="text-5xl font-thin">محمدرضا</h2>
-      <h2 className="text-5xl font-extralight">محمدرضا</h2>
-      <h2 className="text-5xl font-light">محمدرضا</h2>
-      <h2 className="text-5xl font-normal">محمدرضا</h2>
-      <h2 className="text-5xl font-medium">محمدرضا</h2>
-      <h2 className="text-5xl font-semibold">محمدرضا</h2>
-      <h2 className="text-5xl font-bold">محمدرضا</h2>
-      <h2 className="text-5xl font-extrabold">محمدرضا</h2>
-      <h2 className="text-5xl font-black">محمدرضا</h2>
-    </div>
-    <div className="font-cinema mt-40">
-      <h2 className="text-5xl font-thin">محمدرضا</h2>
-      <h2 className="text-5xl font-extralight">محمدرضا</h2>
-      <h2 className="text-5xl font-light">محمدرضا</h2>
-      <h2 className="text-5xl font-normal">محمدرضا</h2>
-      <h2 className="text-5xl font-medium">محمدرضا</h2>
-      <h2 className="text-5xl font-semibold">محمدرضا</h2>
-      <h2 className="text-5xl font-bold">محمدرضا</h2>
-      <h2 className="text-5xl font-extrabold">محمدرضا</h2>
-      <h2 className="text-5xl font-black">محمدرضا</h2>
-    </div>
-    
+      <div>
+        <Navbar></Navbar>
+      </div>
     </>
   );
 }
+
+export const metadata: Metadata = {
+  title: "LovelCode/لاول کد",
+  description: "طراحی سایت شخصی , طراحی سایت فروشگاهی , طراحی سایت ",
+  icons: "/icons/icon.svg",
+  keywords: "طراحی سایت , ساخت سایت , طراحی سایت شخصی , طرای سایت فروشگاهی",
+};
