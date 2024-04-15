@@ -8,15 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      backgroundImage: {},
+      fontFamily: {
+        yekanbakh: "yekanbakh",
+        cinema: "cinema",
       },
-      fontFamily:{
-        'yekanbakh':'yekanbakh',
-        'cinema':'cinema'
-      }
+      colors: {
+        background: "#030712",
+        primery_orang: "#FFC828",
+        primery_red: "#E65526",
+        main_blue: "#5200FF",
+        main_dark: "#0E121E",
+      },
     },
   },
   plugins: [],
