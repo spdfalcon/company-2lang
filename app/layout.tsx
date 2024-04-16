@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import UseLang from "./_hooks/UseLang/UseLang";
-import Navbar from "./_components/templates/Navbar";
-import 'bootstrap-icons/font/bootstrap-icons.min.css'
+import "bootstrap-icons/font/bootstrap-icons.min.css";
+import Topbar from "./_components/templates/Topbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -20,10 +20,8 @@ export default function RootLayout({
     <html className="" lang="fa">
       <body className={`${inter.className} bg-background text-white`}>
         <div className="font-yekanbakh">
-          <Navbar></Navbar>
-          <div className="">
-          {children}
-          </div>
+          <Topbar></Topbar>
+          <div className="">{children}</div>
         </div>
       </body>
       <UseLang></UseLang>

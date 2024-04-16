@@ -5,7 +5,7 @@ import React from "react";
 export default function Ads() {
   return (
     <>
-      <div>
+      <div className="md:hidden">
         <div className="relative overflow-hidden">
           <div className=" bg-[url('/Ads/ads.png')] py-10 blur-sm">
             <div className="absolute top-0 left-0 bg-black/60 z-10 w-full h-full"></div>
