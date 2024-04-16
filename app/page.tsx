@@ -1,16 +1,8 @@
 import { Metadata } from "next";
-import Navbar from "./_components/templates/Navbar";
-import UseLang from "./_hooks/UseLang/UseLang";
 
 export default function Home() {
-
   return (
     <>
-      <div>
-        <Navbar></Navbar>
-      </div>
-
-      <UseLang></UseLang>
     </>
   );
 }
