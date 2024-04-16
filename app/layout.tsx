@@ -21,7 +21,9 @@ export default function RootLayout({
       <body className={`${inter.className} bg-background text-white`}>
         <div className="font-yekanbakh">
           <Navbar></Navbar>
+          <div className="">
           {children}
+          </div>
         </div>
       </body>
       <UseLang></UseLang>
