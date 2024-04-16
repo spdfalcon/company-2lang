@@ -1,9 +1,12 @@
 import { Metadata } from "next";
+import AddOrder from "./_components/templates/home/AddOrder";
 
 export default function Home() {
   return (
     <>
-    <div>mohammad</div>
+    <div>
+      <AddOrder></AddOrder>
+    </div>
     </>
   );
 }

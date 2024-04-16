@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import UseLang from "./_hooks/UseLang/UseLang";
 import "bootstrap-icons/font/bootstrap-icons.min.css";
-import Topbar from "./_components/templates/Topbar";
+import Topbar from "./_components/templates/topbar/Topbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html className="" lang="fa">
+    <html dir="rtl" className="" lang="fa">
       <body className={`${inter.className} bg-background text-white`}>
         <div className="font-yekanbakh">
           <Topbar></Topbar>
