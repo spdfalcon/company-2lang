@@ -10,7 +10,7 @@ export default function AddOrder() {
           <span className="">{t("professionaldigitalagencymarketing")}</span>
           {"   "}
           <span className="gradient-orange text-transparent bg-clip-text">
-            {t("lovelcode")}
+            {t("lovelcode2")}
           </span>
         </h1>
         <h3 className=" text-xs">
