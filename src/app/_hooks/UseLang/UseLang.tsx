@@ -1,7 +1,7 @@
 "use client";
 
-import i18n from "@/app/_i18n";
 import { useEffect } from "react";
+import i18n from "../../_i18n";
 
 export default function UseLang() {
   useEffect(() => {

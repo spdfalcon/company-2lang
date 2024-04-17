@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import AddOrder from "./_components/templates/home/AddOrder";
+import AddOrder from "../_components/templates/home/AddOrder";
 
 export default function Home() {
   return (
