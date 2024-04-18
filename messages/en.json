@@ -3,5 +3,13 @@
     "professionaldigitalagencymarketing": "Professional digital agency Marketing",
     "lovelcode": "lovelcode",
     "weareatthesideofsettingupyourvirtualbusiness": "We are at the side of setting up your virtual business"
+  },
+  "menu":{
+    "mainpage" : "Main Page",
+    "portfolio" : "portfolio",
+    "websitedesignfee" : "Website design fee",
+    "articles" : "articles",
+    "aboutus" : "about us",
+    "contactus" : "contact us"
   }
 }

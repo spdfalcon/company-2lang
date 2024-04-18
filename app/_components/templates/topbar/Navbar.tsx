@@ -1,16 +1,9 @@
-"use client";
-import React, { ChangeEvent } from "react";
+import React from "react";
 import AdsMd from "./AdsMd";
-import { useRouter } from "next/navigation";
-import { useLocale } from "next-intl";
-
+import Menu from "./Menu";
+import SelectLang from "./SelectLang";
 export default function Navbar() {
-  const router = useRouter();
-  const localActive = useLocale();
-  const onSelectChange = (e: ChangeEvent<HTMLSelectElement>) => {
-    const nextLocale = e.target.value;
-    router.replace(`/${nextLocale}`);
-  };
+  
   return (
     <div className="sticky top-6 w-full  flex justify-between  px-5">
       <div className="mt-6 md:hidden">
@@ -22,17 +15,11 @@ export default function Navbar() {
         </div>
         <AdsMd></AdsMd>
       </div>
+      <div className="hidden md:flex mt-6">
+        <Menu></Menu>
+      </div>
       <div className="flex items-center gap-3 mt-6 h-fit">
-        <select
-          defaultValue={localActive}
-          onChange={onSelectChange}
-          className="bg-background outline-none hidden md:block "
-          name=""
-          id=""
-        >
-          <option value="fa">Fa</option>
-          <option value="en">En</option>
-        </select>
+        <SelectLang></SelectLang>
         <span className="w-px h-7 bg-white/15 hidden md:block"></span>
         <div className="  rounded-full size-10 bg-white/10 flex justify-center items-center">
           <div className="rounded-full size-7 bg-background flex justify-center items-center">

@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import "bootstrap-icons/font/bootstrap-icons.min.css";
 import Topbar from "../_components/templates/topbar/Topbar";
+import { NextIntlClientProvider, useMessages } from "next-intl";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -19,19 +20,21 @@ export default function RootLayout({
   children,
   params: { locale },
 }: Readonly<RootLayoutProps>) {
+  const messages = useMessages()
   return (
     <html
       dir={locale === "fa" ? "rtl" : locale === "en" ? "ltr" : "rtl"}
       className=""
       lang={locale}
     >
-      <body className={`${inter.className} bg-background text-white`}>
-        <div className="font-yekanbakh">
-          <Topbar></Topbar>
-          <div className="">{children}</div>
-        </div>
-      </body>
-      
+      <NextIntlClientProvider locale={locale} messages={messages}>
+        <body className={`${inter.className} bg-background text-white`}>
+          <div className="font-yekanbakh">
+            <Topbar></Topbar>
+            <div className="">{children}</div>
+          </div>
+        </body>
+      </NextIntlClientProvider>
     </html>
   );
 }
