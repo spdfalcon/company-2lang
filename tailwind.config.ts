@@ -10,8 +10,10 @@ const config: Config = {
     extend: {
       backgroundImage: {},
       fontFamily: {
-        yekanbakh: "yekanbakh",
-        cinema: "cinema",
+        // yekanbakh: "yekanbakh",
+        // cinema: "cinema",
+        cinema:["var(--font-cinema)"],
+        yekanbakh:["var(--font-yekanbakh)"],
       },
       colors: {
         background: "#030712",
