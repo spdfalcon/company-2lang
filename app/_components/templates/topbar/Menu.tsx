@@ -1,6 +1,7 @@
 "use client";
 import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import React from "react";
 export default function Menu() {
   const navLinks = [
@@ -13,13 +14,25 @@ export default function Menu() {
   ];
   const localActive = useLocale();
   const t = useTranslations("menu");
+  const pathname = usePathname();
 
   return (
     <div>
-      <ul className="px-[27px] py-5 bg-red-300 rounded-full text-sm flex gap-4">
+      <ul className="px-[27px] py-5 bg-background rounded-full text-sm flex gap-4 lg:gap-11">
         {navLinks.map((link) => (
-          <li className="" key={link.id}>
-            <Link href={`/${localActive}${link.href}`}>{t(link.title)}</Link>
+          <li className="text-[11px] cursor-pointer lg:text-sm" key={link.id}>
+            <Link
+              className={
+                pathname === `/${localActive}${link.href}`
+                  ? "gradient-orange text-transparent bg-clip-text before:size-[2px] before:gradient-orange before:block relative before:absolute before:-top-px before:-right-1 before:rounded-full "
+                  : pathname === `${link.href}${localActive}`
+                  ? "gradient-orange text-transparent bg-clip-text before:size-[2px] before:gradient-orange before:block relative before:absolute before:-top-px before:-right-1 before:rounded-full "
+                  : ""
+              }
+              href={`/${localActive}${link.href}`}
+            >
+              {t(link.title)}
+            </Link>
           </li>
         ))}
       </ul>

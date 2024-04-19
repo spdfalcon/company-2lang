@@ -5,7 +5,7 @@ import SelectLang from "./SelectLang";
 export default function Navbar() {
   
   return (
-    <div className="sticky top-6 w-full  flex justify-between  px-5">
+    <div className="sticky top-6 w-full  flex justify-between items-center md:items-start px-5">
       <div className="mt-6 md:hidden">
         <img src="/navbar/hamber.svg" alt="" />
       </div>
