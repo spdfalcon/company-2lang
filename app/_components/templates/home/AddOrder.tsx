@@ -1,9 +1,7 @@
-"use client";
+import { useTranslations } from "next-intl";
 import React from "react";
-import { useTranslation } from "react-i18next";
-
 export default function AddOrder() {
-  const { t } = useTranslation();
+  const t = useTranslations('home')
   return (
     <div className="px-5 mt-11">
       <div className="top text-center flex flex-col gap-3">
