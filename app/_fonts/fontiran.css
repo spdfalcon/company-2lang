@@ -22,67 +22,67 @@ This set of fonts are used in this project under the license: (.....)
 	font-family: yekanbakh;
 	font-style: normal;
 	font-weight: 100;
-	src: url('fonts/woff/yekanbakh-thin.woff') format('woff'),   
-	url('fonts/woff2/yekanbakh-thin.woff2') format('woff2');		
+	src: url('./fonts/woff/yekanbakh-thin.woff') format('woff'),   
+	url('./fonts/woff2/yekanbakh-thin.woff2') format('woff2');		
 }
 
 @font-face {
 	font-family: yekanbakh;
 	font-style: normal;
 	font-weight: 300;
-	src: url('fonts/woff/yekanbakh-Light.woff') format('woff'),   
-	url('fonts/woff2/yekanbakh-Light.woff2') format('woff2');	
+	src: url('./fonts/woff/yekanbakh-Light.woff') format('woff'),   
+	url('./fonts/woff2/yekanbakh-Light.woff2') format('woff2');	
 }
 
 @font-face {
 	font-family: yekanbakh;
 	font-style: normal;
 	font-weight: normal;
-	src: url('fonts/woff/yekanbakh-Regular.woff') format('woff'),   
-	url('fonts/woff2/yekanbakh-Regular.woff2') format('woff2');		 
+	src: url('./fonts/woff/yekanbakh-Regular.woff') format('woff'),   
+	url('./fonts/woff2/yekanbakh-Regular.woff2') format('woff2');		 
 }
 
 @font-face {
 	font-family: yekanbakh;
 	font-style: normal;
 	font-weight: bold;
-	src: url('fonts/woff/yekanbakh-SemiBold.woff') format('woff'),   
-	url('fonts/woff2/yekanbakh-SemiBold.woff2') format('woff2');		 
+	src: url('./fonts/woff/yekanbakh-SemiBold.woff') format('woff'),   
+	url('./fonts/woff2/yekanbakh-SemiBold.woff2') format('woff2');		 
 }
 
 @font-face {
 	font-family: yekanbakh;
 	font-style: normal;
 	font-weight: bold;
-	src: url('fonts/woff/yekanbakh-Bold.woff') format('woff'),   
-	url('fonts/woff2/yekanbakh-Bold.woff2') format('woff2');		 
+	src: url('./fonts/woff/yekanbakh-Bold.woff') format('woff'),   
+	url('./fonts/woff2/yekanbakh-Bold.woff2') format('woff2');		 
 }
 
 @font-face {
 	font-family: yekanbakh;
 	font-style: normal;
 	font-weight: 800;
-	src: url('fonts/woff/yekanbakh-ExtraBold.woff') format('woff'),   
-	url('fonts/woff2/yekanbakh-ExtraBold.woff2') format('woff2');		 
+	src: url('./fonts/woff/yekanbakh-ExtraBold.woff') format('woff'),   
+	url('./fonts/woff2/yekanbakh-ExtraBold.woff2') format('woff2');		 
 }
 
 @font-face {
 	font-family: yekanbakh;
 	font-style: normal;
 	font-weight: 900;
-	src: url('fonts/woff/yekanbakh-Black.woff') format('woff'),   
-	url('fonts/woff2/yekanbakh-Black.woff2') format('woff2');	 
+	src: url('./fonts/woff/yekanbakh-Black.woff') format('woff'),   
+	url('./fonts/woff2/yekanbakh-Black.woff2') format('woff2');	 
 }
 
 @font-face {
 	font-family: yekanbakh;
 	font-style: normal;
 	font-weight: 950;
-	src: url('fonts/woff/yekanbakh-ExtraBlack.woff') format('woff'),   
-	url('fonts/woff2/yekanbakh-ExtraBlack.woff2') format('woff2');		 
+	src: url('./fonts/woff/yekanbakh-ExtraBlack.woff') format('woff'),   
+	url('./fonts/woff2/yekanbakh-ExtraBlack.woff2') format('woff2');		 
 }
 
 @font-face {
 	font-family: cinema;
-	src: url("fonts/Cinema\ Font\ \(\ www.rezagraphic.ir\ \).ttf");
+	src: url("./fonts/Cinema\ Font\ \(\ www.rezagraphic.ir\ \).ttf");
 }
