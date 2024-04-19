@@ -1,7 +1,9 @@
 import { useTranslations } from "next-intl";
 import React from "react";
+import Player from "./Player";
+import Btn from "../../modules/Btn/Btn";
 export default function AddOrder() {
-  const t = useTranslations('home')
+  const t = useTranslations("home");
   return (
     <div className="px-5 mt-11">
       <div className="top text-center flex flex-col gap-3">
@@ -16,8 +18,12 @@ export default function AddOrder() {
           {t("weareatthesideofsettingupyourvirtualbusiness")}
         </h3>
       </div>
-      <div className="mid"></div>
-      <div className="down"></div>
+      <div className="mid">
+        <Player></Player>
+      </div>
+      <div className="w-full down flex justify-center mt-5">
+        <Btn bg="gradient" type="box8"  href={'/'} title={'ثبت'}></Btn>
+      </div>
     </div>
   );
 }

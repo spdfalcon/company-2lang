@@ -20,7 +20,7 @@ export default function Menu() {
     <div>
       <ul className="px-[27px] py-5 bg-background rounded-full text-sm flex gap-4 lg:gap-11">
         {navLinks.map((link) => (
-          <li className="text-[11px] cursor-pointer lg:text-sm" key={link.id}>
+          <li className="text-[10px] cursor-pointer lg:text-sm" key={link.id}>
             <Link
               className={
                 pathname === `/${localActive}${link.href}`
