@@ -7,7 +7,7 @@ export default function Home() {
     <>
     <div className="">
       <AddOrder></AddOrder>
-      <h1>mohammad3</h1>
+      <h1 className="text-4xl font-thin">محمدرضا یکان بخ 100</h1>
     </div>
     <div className="hidden md:block">
     <BgBlur></BgBlur>

@@ -1,10 +1,13 @@
+import Image from "next/image";
 import React from "react";
 
 export default function AdsMd() {
   return (
     <>
       <div className="hidden relative overflow-hidden md:flex w-[100px] h-[180px] rounded-b-full">
-        <img
+        <Image
+          width={100}
+          height={180}
           className="blur-sm w-full h-full bg-cover bg-center"
           src="/Ads/adsMd.png"
           alt=""

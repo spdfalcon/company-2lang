@@ -7,12 +7,32 @@ import localFont from "next/font/local";
 const yekanbakh = localFont({
   src: [
     {
+      path: "../_fonts/fonts/woff/YekanBakh-Thin.woff",
+      weight: "100",
+    },
+    {
       path: "../_fonts/fonts/woff/YekanBakh-Light.woff",
       weight: "300",
     },
     {
       path: "../_fonts/fonts/woff/YekanBakh-Regular.woff",
       weight: "400",
+    },
+    {
+      path: "../_fonts/fonts/woff/YekanBakh-SemiBold.woff",
+      weight: "600",
+    },
+    {
+      path: "../_fonts/fonts/woff/YekanBakh-Bold.woff",
+      weight: "700",
+    },
+    {
+      path: "../_fonts/fonts/woff/YekanBakh-ExtraBold.woff",
+      weight: "800",
+    },
+    {
+      path: "../_fonts/fonts/woff/YekanBakh-Black.woff",
+      weight: "900",
     },
   ],
   variable: "--font-yekanbakh",
