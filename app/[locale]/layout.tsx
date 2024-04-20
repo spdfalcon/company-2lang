@@ -7,7 +7,7 @@ import localFont from "next/font/local";
 const yekanbakh = localFont({
   src: [
     {
-      path: "../_fonts/fonts/woff/yekanbakh-Light.woff",
+      path: "../_fonts/fonts/woff/YekanBakh-Light.woff",
       weight: "300",
     },
     {
@@ -19,7 +19,7 @@ const yekanbakh = localFont({
   weight: "400",
 });
 const cinema = localFont({
-  src: "../_fonts/fonts/Cinema Font ( www.rezagraphic.ir ).ttf",
+  src: "../_fonts/fonts/Cinema.ttf",
   variable: "--font-cinema",
 });
 export const metadata: Metadata = {
