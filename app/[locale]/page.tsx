@@ -1,17 +1,16 @@
 import { Metadata } from "next";
 import AddOrder from "../_components/templates/home/AddOrder";
 import BgBlur from "../_components/templates/home/BgBlur";
+import Plans from "../_components/templates/home/Plans";
 
 export default function Home() {
   return (
     <>
     <div className="">
       <AddOrder></AddOrder>
-      <h1 className="text-4xl font-thin">محمدرضا یکان بخ 100</h1>
+      <Plans></Plans>
     </div>
-    <div className="hidden md:block">
     <BgBlur></BgBlur>
-    </div>
     </>
   );
 }

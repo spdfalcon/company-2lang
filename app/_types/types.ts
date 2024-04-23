@@ -13,3 +13,15 @@ export interface ButtonProps {
     | "box9"; // به دلخواه تعیین کنید
   href: string;
 }
+
+export interface FeaturesPlanProps {
+  count?: number;
+  title?: string;
+  src?: string;
+  width?: number;
+  height?: number;
+  text?: string;
+}
+export interface PlanProps {
+  title?: string;
+}

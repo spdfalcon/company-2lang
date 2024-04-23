@@ -22,7 +22,22 @@ export default function AddOrder() {
         <Player></Player>
       </div>
       <div className="w-full down flex justify-center mt-5">
-        <Btn bg="gradient" type="box8"  href={'/'} title={'ثبت'}></Btn>
+        <div className="md:hidden text-xs">
+          <Btn
+            bg="gradient"
+            type="box7"
+            href={"/"}
+            title={t('placeanorderforwebsitedesign')}
+          ></Btn>
+        </div>
+        <div className="hidden md:flex text-[18px]">
+          <Btn
+            bg="gradient"
+            type="box2"
+            href={"/"}
+            title={t('placeanorderforwebsitedesign')}
+          ></Btn>
+        </div>
       </div>
     </div>
   );

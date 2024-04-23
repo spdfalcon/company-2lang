@@ -21,6 +21,7 @@ const config: Config = {
         primery_red: "#E65526",
         main_blue: "#5200FF",
         main_dark: "#0E121E",
+        second_dark: "#090D18",
       },
     },
   },

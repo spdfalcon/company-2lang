@@ -31,7 +31,7 @@ const Btn: React.FC<ButtonProps> = ({ title, bg, type, href }) => {
           : ""
       } flex justify-center items-center`}
     >
-      <Link href={href} className="">
+      <Link href={href} className="text-center">
         {title}
       </Link>
     </div>

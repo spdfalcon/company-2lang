@@ -20,7 +20,9 @@ export default function Navbar() {
         <Menu></Menu>
       </div>
       <div className="flex items-center gap-3 mt-16 h-fit">
+        <div className=" hidden md:block">
         <SelectLang></SelectLang>
+        </div>
         <span className="w-px h-7 bg-white/15 hidden md:block"></span>
         <div className="  rounded-full size-10 bg-white/10 flex justify-center items-center">
           <div className="rounded-full size-7 bg-background flex justify-center items-center">

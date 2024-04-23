@@ -18,7 +18,7 @@ export default function SelectLang() {
       <select
         defaultValue={localActive}
         onChange={onSelectChange}
-        className="bg-background outline-none hidden md:block cursor-pointer"
+        className="bg-background outline-none cursor-pointer"
         name=""
         id=""
       >
