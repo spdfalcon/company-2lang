@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import AddOrder from "../_components/templates/home/AddOrder";
 import BgBlur from "../_components/templates/home/BgBlur";
-import Plans from "../_components/templates/home/Plans";
+import Plans from "../_components/templates/home/Plans/Plans";
 
 export default function Home() {
   return (

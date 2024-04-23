@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
-import Plan from "../../modules/home/Plan";
-import Titles from "../../modules/Titles";
+import Plan from "../../../modules/home/Plan";
+import Titles from "../../../modules/Titles";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
-
+import { Pagination } from "swiper/modules";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -40,6 +40,57 @@ export default function Plans() {
             },
             1024: {
               slidesPerView: 2,
+              spaceBetween: 50,
+            },
+          }}
+        >
+          <SwiperSlide>
+            <Plan></Plan>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Plan></Plan>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Plan></Plan>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Plan></Plan>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Plan></Plan>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Plan></Plan>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Plan></Plan>
+          </SwiperSlide>
+        </Swiper>
+      </div>
+      <div className="hidden md:block">
+        <Swiper
+          slidesPerView={2}
+          spaceBetween={30}
+          className="mySwiper"
+          autoplay={{
+            delay: 2500,
+          }}
+          modules={[Autoplay, Pagination]}
+          breakpoints={{
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 30,
+            },
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 30,
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 50,
+            },
+            1280: {
+              slidesPerView: 4,
               spaceBetween: 50,
             },
           }}
