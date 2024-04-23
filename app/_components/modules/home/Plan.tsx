@@ -7,7 +7,7 @@ import { useTranslations } from "next-intl";
 const Plan:React.FC<PlanProps> =({title})=> {
   const t = useTranslations('home')
   return (
-    <div className="flex justify-center ">
+    <div className="flex justify-center">
       <div className=" mt-10 px-5 pb-5 bg-second_dark w-[273px] border-[1px] rounded-[20px]">
         <div className="justify-center text-center items-center">
           <span className="px-8 py-3 text-xs bg-[#5200FF]/10 inline-block rounded-b-[15px]">
