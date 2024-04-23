@@ -1,4 +1,5 @@
 import { FeaturesPlanProps } from "@/app/_types/types";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import React from "react";
 
@@ -11,10 +12,11 @@ const FeaturesPlan:React.FC<FeaturesPlanProps> = ({
   text
 }: any)=> {
   const arr = new Array(count).fill(0);
+  const t = useTranslations('home')
   return (
     <div>
       <div className="flex justify-between">
-        <span className="text-xs md:text-sm">{title}</span>
+        <span className="text-xs md:text-sm">{t(title)}</span>
         <div className="flex gap-1">
           {arr.map((item) => (
             <>
@@ -28,7 +30,7 @@ const FeaturesPlan:React.FC<FeaturesPlanProps> = ({
                       height={height}
                     ></Image>
                 ) : (
-                    <span>{text}</span>
+                    <span>{t(text)}</span>
                 )
             }
             </>

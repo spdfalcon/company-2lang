@@ -25,3 +25,9 @@ export interface FeaturesPlanProps {
 export interface PlanProps {
   title?: string;
 }
+export interface TitleProps {
+  title?: string;
+  desc?: string;
+  lovelcode?: string;
+  first?: boolean;
+}
