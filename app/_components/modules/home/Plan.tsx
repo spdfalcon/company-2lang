@@ -65,7 +65,7 @@ const Plan:React.FC<PlanProps> =({title})=> {
           </div>
         </div>
         <div className="mt-3">
-        <Btn bg="gradient" href="/" title="ثبت درخواست" type="box6"></Btn>
+        <Btn bg="gradient" href="/" title="Requestregistration" type="box6"></Btn>
         </div>
       </div>
     </div>

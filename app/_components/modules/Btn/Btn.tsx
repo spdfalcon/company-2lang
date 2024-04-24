@@ -1,15 +1,17 @@
 import { ButtonProps } from "@/app/_types/types";
+import { useTranslations } from "next-intl";
 import Link from "next/link";
 import React from "react";
 
-const Btn: React.FC<ButtonProps> = ({ title, bg, type, href }) => {
+const Btn: React.FC<ButtonProps> = ({ title, bg, type, href, shadow }) => {
+  const t = useTranslations('home')
   return (
     <div
       className={`${
         bg === "gradient"
           ? "gradient-orange"
           : bg === "background"
-          ? "bg-background"
+          ? "bg-main_dark/65"
           : ""
       } ${
         type === "box1"
@@ -29,10 +31,10 @@ const Btn: React.FC<ButtonProps> = ({ title, bg, type, href }) => {
           : type === "box8"
           ? "w-[244px] h-[50px] rounded-[14px]"
           : ""
-      } flex justify-center items-center`}
+      } flex justify-center items-center ${shadow ? 'shadow-btn' : ''}`}
     >
-      <Link href={href} className="text-center">
-        {title}
+      <Link href={href} className="text-center text-xs md:text-lg">
+        {t(title)}
       </Link>
     </div>
   );

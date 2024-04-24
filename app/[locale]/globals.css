@@ -8,4 +8,7 @@
     .gradient-orange{
         @apply bg-gradient-to-r from-primery_orang to-primery_red 
     }
+    .shadow-btn{
+        box-shadow: #00000065 2px 4px 4px 0;
+    }
 }

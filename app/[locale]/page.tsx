@@ -2,15 +2,23 @@ import { Metadata } from "next";
 import AddOrder from "../_components/templates/home/AddOrder";
 import BgBlur from "../_components/templates/home/BgBlur";
 import Plans from "../_components/templates/home/Plans/Plans";
+import Brief from "../_components/templates/home/Brief/Brief";
+import BriefMd from "../_components/templates/home/Brief/BriefMd";
 
 export default function Home() {
   return (
     <>
-    <div className="">
-      <AddOrder></AddOrder>
-      <Plans></Plans>
-    </div>
-    <BgBlur></BgBlur>
+      <div className="">
+        <AddOrder></AddOrder>
+        <Plans></Plans>
+        <div className="md:hidden">
+          <Brief></Brief>
+        </div>
+        <div className="hidden md:flex">
+          <BriefMd></BriefMd>
+        </div>
+      </div>
+      <BgBlur></BgBlur>
     </>
   );
 }

@@ -1,10 +1,8 @@
-import { useTranslations } from "next-intl";
 import React from "react";
 import Player from "./Player";
 import Btn from "../../modules/Btn/Btn";
 import Titles from "../../modules/Titles";
 export default function AddOrder() {
-  const t = useTranslations("home");
   return (
     <div className="px-5 mt-11">
       <Titles desc="weareatthesideofsettingupyourvirtualbusiness" title="professionaldigitalagencymarketing" lovelcode="lovelcode"></Titles>
@@ -17,15 +15,15 @@ export default function AddOrder() {
             bg="gradient"
             type="box7"
             href={"/"}
-            title={t('placeanorderforwebsitedesign')}
+            title={'placeanorderforwebsitedesign'}
           ></Btn>
         </div>
-        <div className="hidden md:flex text-[18px]">
+        <div className="hidden md:flex text-[18px] shadow-btn">
           <Btn
             bg="gradient"
             type="box2"
             href={"/"}
-            title={t('placeanorderforwebsitedesign')}
+            title={'placeanorderforwebsitedesign'}
           ></Btn>
         </div>
       </div>

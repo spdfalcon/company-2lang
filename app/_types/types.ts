@@ -12,6 +12,7 @@ export interface ButtonProps {
     | "box8"
     | "box9"; // به دلخواه تعیین کنید
   href: string;
+  shadow?: boolean;
 }
 
 export interface FeaturesPlanProps {
