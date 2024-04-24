@@ -6,32 +6,34 @@
     "placeanorderforwebsitedesign": "Place an order for website design",
     "thecostofwebsitedesignplans": "The cost of website design plans",
     "specialplanscustomersthebestandhighestquality": "Special plans for customers with the best and highest quality",
-    "sitespeed":"Site speed:",
-    "customization":"Customization:",
-    "technicalseo":"Technical SEO:",
-    "changethecolortoyourtaste":"Change the color to your taste:",
-    "fulluserpaneltutorial":"Full user panel tutorial:",
-    "freesupport":"Free support:",
-    "uiux":"UI / UX :",
-    "executiontime":"execution time :",
-    "6months":"6 months",
-    "ready":"ready",
-    "10workingdays":"10 working days",
-    "economicdesignplan":"Economic design plan",
-    "ataglance":"At a glance",
-    "weareleadersinpromotingonlinebusinesses":"We are leaders in promoting online businesses",
-    "viewall":"view all",
-    "Requestregistration":"Request registration"
-
-
-
+    "sitespeed": "Site speed:",
+    "customization": "Customization:",
+    "technicalseo": "Technical SEO:",
+    "changethecolortoyourtaste": "Change the color to your taste:",
+    "fulluserpaneltutorial": "Full user panel tutorial:",
+    "freesupport": "Free support:",
+    "uiux": "UI / UX :",
+    "executiontime": "execution time :",
+    "6months": "6 months",
+    "ready": "ready",
+    "10workingdays": "10 working days",
+    "economicdesignplan": "Economic design plan",
+    "ataglance": "At a glance",
+    "weareleadersinpromotingonlinebusinesses": "We are leaders in promoting online businesses",
+    "viewall": "view all",
+    "Requestregistration": "Request registration",
+    "briefdesc": "During our activities in the field of marketing and branding, we encountered many individuals and small and medium-sized businesses who needed advice and solutions to develop and improve their business. Responding to this need in the field of marketing and branding led to the formation of Level Code. became.",
+    "lowellcodewasbuiltin1402": "Lowell Code was built in 1402!",
+    "asuccessfulprojectintheportfolioofthelovelcodeteam":"A successful project in the portfolio of the Lovelcode team",
+    "phonetitle":"LovelCode support phone number",
+    "phonedesc":"We are waiting for your call. Answering hours are from Saturday to Thursday 8.30 to 21.00."
   },
-  "menu":{
-    "mainpage" : "Main Page",
-    "portfolio" : "portfolio",
-    "websitedesignfee" : "Website design fee",
-    "articles" : "articles",
-    "aboutus" : "about us",
-    "contactus" : "contact us"
+  "menu": {
+    "mainpage": "Main Page",
+    "portfolio": "portfolio",
+    "websitedesignfee": "Website design fee",
+    "articles": "articles",
+    "aboutus": "about us",
+    "contactus": "contact us"
   }
 }
