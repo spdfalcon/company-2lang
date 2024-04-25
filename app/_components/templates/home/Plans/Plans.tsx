@@ -17,7 +17,6 @@ export default function Plans() {
       <div className="mt-16 ">
         <Titles
           title="thecostofwebsitedesignplans"
-          lovelcode="lovelcode"
           desc="specialplanscustomersthebestandhighestquality"
         ></Titles>
       </div>
