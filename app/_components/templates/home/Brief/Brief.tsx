@@ -1,4 +1,3 @@
-import Titles from "@/app/_components/modules/Titles";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import React from "react";
@@ -9,11 +8,19 @@ const Brief = () => {
     <>
       <div className="px-5">
         <div className="mt-16">
-          <Titles
-            desc="weareleadersinpromotingonlinebusinesses"
-            first={true}
-            title="ataglance"
-          ></Titles>
+          <div className="flex justify-center items-center">
+            <div className="title text-center">
+              <div className="flex justify-center font-cinema text-[25px] md:text-[40px]">
+                <h2 className="gradient-orange text-transparent bg-clip-text">
+                  {t("lovelcode")}
+                </h2>
+                <h2 className="">{t("ataglance")}</h2>
+              </div>
+              <h2 className="font-light text-xs md:text-base">
+                {t("weareleadersinpromotingonlinebusinesses")}
+              </h2>
+            </div>
+          </div>
         </div>
         <p className="mt-6 text-sm leading-7">
           {t("lowellcodewasbuiltin1402")}
@@ -42,7 +49,6 @@ const Brief = () => {
               src={"/home/brief/phone.png"}
             ></Image>
             <div className="absolute top-0 left-0 w-full h-full bg-second_dark/90 "></div>
-            
           </div>
         </div>
       </div>

@@ -26,11 +26,6 @@ export interface FeaturesPlanProps {
 export interface PlanProps {
   title?: string;
 }
-export interface TitleProps {
-  title?: string;
-  desc?: string;
-  first?: boolean;
-}
 export interface BriefFeacherProps {
   title?: string;
   src: string;
