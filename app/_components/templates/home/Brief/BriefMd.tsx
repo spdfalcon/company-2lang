@@ -13,7 +13,7 @@ const BriefMd = () => {
               <div className="relative w-fit h-fit">
                 <Image
                   alt=""
-                  src={"/home/briefmd.png"}
+                  src={"/home/brief/briefmd.png"}
                   width={554}
                   height={619}
                 ></Image>
