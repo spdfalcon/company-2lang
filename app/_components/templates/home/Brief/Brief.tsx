@@ -28,17 +28,22 @@ const Brief = () => {
           </div>
         </div>
         <div className="flex justify-center">
-        <div className="relative w-80 h-[156px] mt-[65px] rounded-[22px] flex flex-col items-center gap-[15px] overflow-hidden justify-center">
-        <div className="z-10 text-center flex flex-col gap-[15px] px-8">
-          <h3 className="text-2xl font-cinema ">{t('phonetitle')}</h3>
-          <p className="text-xs font-light">{t('phonedesc')}</p>
-          <p>09305712252</p>
-        </div>
+          <div className="relative w-80 h-[156px] mt-[65px] rounded-[22px] flex flex-col items-center gap-[15px] overflow-hidden justify-center">
+            <div className="z-10 text-center flex flex-col gap-[15px] px-8">
+              <h3 className="text-2xl font-cinema ">{t("phonetitle")}</h3>
+              <p className="text-xs font-light">{t("phonedesc")}</p>
+              <p>09305712252</p>
+            </div>
 
-
-          <Image className="blur-sm" layout="fill" alt="" src={'/home/phone.png'} ></Image>
-          <div className="absolute top-0 left-0 w-full h-full bg-second_dark/90 "></div>
-        </div>
+            <Image
+              className="blur-sm"
+              layout="fill"
+              alt=""
+              src={"/home/brief/phone.png"}
+            ></Image>
+            <div className="absolute top-0 left-0 w-full h-full bg-second_dark/90 "></div>
+            
+          </div>
         </div>
       </div>
     </>
