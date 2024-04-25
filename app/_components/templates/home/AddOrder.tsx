@@ -5,7 +5,7 @@ import Titles from "../../modules/Titles";
 export default function AddOrder() {
   return (
     <div className="px-5 mt-11">
-      <Titles desc="weareatthesideofsettingupyourvirtualbusiness" title="professionaldigitalagencymarketing" lovelcode="lovelcode"></Titles>
+      <Titles desc="weareatthesideofsettingupyourvirtualbusiness" title="professionaldigitalagencymarketing"></Titles>
       <div className="mid">
         <Player></Player>
       </div>
