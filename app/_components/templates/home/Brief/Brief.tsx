@@ -12,7 +12,6 @@ const Brief = () => {
           <Titles
             desc="weareleadersinpromotingonlinebusinesses"
             first={true}
-            lovelcode="lovelcode"
             title="ataglance"
           ></Titles>
         </div>

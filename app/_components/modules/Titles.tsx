@@ -2,7 +2,7 @@ import { TitleProps } from "@/app/_types/types";
 import { useTranslations } from "next-intl";
 import React from "react";
 
-const Titles: React.FC<TitleProps> = ({ title, lovelcode, desc, first }) => {
+const Titles: React.FC<TitleProps> = ({ title, desc, first }) => {
   const t = useTranslations("home");
   return (
     <div>
@@ -11,7 +11,7 @@ const Titles: React.FC<TitleProps> = ({ title, lovelcode, desc, first }) => {
           {first ? (
             <>
               <span className="gradient-orange text-transparent bg-clip-text">
-                {t(lovelcode)}
+                {t('lovelcode')}
               </span>
               {"   "}
               <span className="">{t(title)}</span>
@@ -21,7 +21,7 @@ const Titles: React.FC<TitleProps> = ({ title, lovelcode, desc, first }) => {
               <span className="">{t(title)}</span>
               {"   "}
               <span className="gradient-orange text-transparent bg-clip-text">
-                {t(lovelcode)}
+                {t('lovelcode')}
               </span>
             </>
           )}

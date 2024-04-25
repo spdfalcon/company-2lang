@@ -29,6 +29,9 @@ export interface PlanProps {
 export interface TitleProps {
   title?: string;
   desc?: string;
-  lovelcode?: string;
   first?: boolean;
+}
+export interface BriefFeacherProps {
+  title?: string;
+  src: string;
 }
