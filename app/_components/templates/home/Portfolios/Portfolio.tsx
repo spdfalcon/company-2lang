@@ -11,7 +11,7 @@ export default function Portfolio() {
           <Image
             alt=""
             src={"/home/portfolio/portfolio1.png"}
-            layout="fill"
+            fill
           ></Image>
         </div>
         <div className="">

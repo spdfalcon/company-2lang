@@ -18,12 +18,11 @@ const FeaturesPlan:React.FC<FeaturesPlanProps> = ({
       <div className="flex justify-between">
         <span className="text-xs md:text-sm">{t(title)}</span>
         <div className="flex gap-1">
-          {arr.map((item) => (
-            <>
+          {arr.map(() => (
+            <div key={crypto.randomUUID()}>
             {
                 src ? (
                     <Image
-                      key={item.index}
                       alt=""
                       src={src}
                       width={width}
@@ -33,7 +32,7 @@ const FeaturesPlan:React.FC<FeaturesPlanProps> = ({
                     <span>{t(text)}</span>
                 )
             }
-            </>
+            </div>
           ))}
         </div>
       </div>

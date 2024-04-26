@@ -44,8 +44,8 @@ const Brief = () => {
 
             <Image
               className="blur-sm"
-              layout="fill"
-              alt=""
+              fill
+              alt="/home/brief/phone.png"
               src={"/home/brief/phone.png"}
             ></Image>
             <div className="absolute top-0 left-0 w-full h-full bg-second_dark/90 "></div>

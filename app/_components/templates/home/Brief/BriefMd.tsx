@@ -67,7 +67,7 @@ const BriefMd = () => {
             className="blur-sm"
             alt=""
             src={"/home/brief/phonemd.png"}
-            layout="fill"
+            fill
           ></Image>
           <div className="absolute top-0 left-0 w-full h-full bg-second_dark/90 flex justify-center items-center">
             <div className="z-10 text-center flex flex-col gap-[15px] px-8">

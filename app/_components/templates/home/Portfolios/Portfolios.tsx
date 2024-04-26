@@ -1,8 +1,6 @@
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 import React from "react";
-import Portfolio from "./Portfolio";
-
 export default function Portfolios() {
   const t = useTranslations("home");
   return (
@@ -28,8 +26,8 @@ export default function Portfolios() {
           </Link>
         </div>
       </div>
-      <div className="flex justify-center mt-9">
-        <Portfolio></Portfolio>
+      <div className="">
+        
       </div>
     </div>
   );
