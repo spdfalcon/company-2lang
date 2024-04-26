@@ -4,6 +4,7 @@ import BgBlur from "../_components/templates/home/BgBlur";
 import Plans from "../_components/templates/home/Plans/Plans";
 import Brief from "../_components/templates/home/Brief/Brief";
 import BriefMd from "../_components/templates/home/Brief/BriefMd";
+import Portfolios from "../_components/templates/home/Portfolios/Portfolios";
 
 export default function Home() {
   return (
@@ -16,6 +17,9 @@ export default function Home() {
         </div>
         <div className="hidden md:flex">
           <BriefMd></BriefMd>
+        </div>
+        <div>
+          <Portfolios></Portfolios>
         </div>
       </div>
       <BgBlur></BgBlur>
