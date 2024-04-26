@@ -6,7 +6,7 @@ import Portfolio from "./Portfolio";
 export default function Portfolios() {
   const t = useTranslations("home");
   return (
-    <div>
+    <div >
       <div className="mt-16 px-5 md:px-[100px]">
         <div className="flex justify-center lg:justify-between  items-center">
           <div className="title">
@@ -28,7 +28,7 @@ export default function Portfolios() {
           </Link>
         </div>
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center mt-9">
         <Portfolio></Portfolio>
       </div>
     </div>

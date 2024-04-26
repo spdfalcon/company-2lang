@@ -22,6 +22,7 @@ const config: Config = {
         main_blue: "#5200FF",
         main_dark: "#0E121E",
         second_dark: "#090D18",
+        light_text: "#A9A9A9"
       },
     },
   },
