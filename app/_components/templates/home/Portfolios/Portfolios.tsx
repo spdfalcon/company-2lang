@@ -1,10 +1,13 @@
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 import React from "react";
+import SliderPortfolios from "./SliderPortfolios";
+import Btn from "@/app/_components/modules/Btn/Btn";
+import SliderPlansMd from "../Plans/SliderPlansMd";
 export default function Portfolios() {
   const t = useTranslations("home");
   return (
-    <div >
+    <div>
       <div className="mt-16 px-5 md:px-[100px]">
         <div className="flex justify-center lg:justify-between  items-center">
           <div className="title">
@@ -26,8 +29,16 @@ export default function Portfolios() {
           </Link>
         </div>
       </div>
-      <div className="">
-        
+      <SliderPortfolios></SliderPortfolios>
+      <SliderPlansMd></SliderPlansMd>
+      <div className="flex justify-center mt-[30px] md:hidden">
+        <Btn
+          shadow={true}
+          type="box7"
+          href="/"
+          title="viewall"
+          bg="background"
+        ></Btn>
       </div>
     </div>
   );
