@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import SliderPortfolios from "./SliderPortfolios";
 import Btn from "@/app/_components/modules/Btn/Btn";
-import SliderPlansMd from "../Plans/SliderPlansMd";
+import SliderPortfoliosMd from "./SliderPortfoliosMd";
 export default function Portfolios() {
   const t = useTranslations("home");
   return (
@@ -30,7 +30,7 @@ export default function Portfolios() {
         </div>
       </div>
       <SliderPortfolios></SliderPortfolios>
-      <SliderPlansMd></SliderPlansMd>
+      <SliderPortfoliosMd></SliderPortfoliosMd>
       <div className="flex justify-center mt-[30px] md:hidden">
         <Btn
           shadow={true}
