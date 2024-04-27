@@ -11,10 +11,10 @@ export default function SocialMedias() {
         title="لاول کد را در اینستاگرام دنبال کنید. "
       ></SocialMedia>
       <SocialMedia
-        bg="bg-gradient-to-r from-[#E825D4] to-[#F87919]"
-        iconmd="/home/socialmedia/instagramsm.png"
-        iconsm="/home/socialmedia/instagrammd.png"
-        title="لاول کد را در اینستاگرام دنبال کنید. "
+        bg="bg-gradient-to-r from-[#00A0C5] to-[#00D2FC]"
+        iconmd="/home/socialmedia/telegramsm.png"
+        iconsm="/home/socialmedia/telegrammd.png"
+        title="لاول کد را در تلگرام دنبال کنید. "
       ></SocialMedia>
     </div>
   );

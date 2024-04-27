@@ -4,6 +4,7 @@ import "bootstrap-icons/font/bootstrap-icons.min.css";
 import Topbar from "../_components/templates/topbar/Topbar";
 import { NextIntlClientProvider, useMessages } from "next-intl";
 import localFont from "next/font/local";
+import Footer from "../_components/templates/home/Footer/Footer";
 const yekanbakh = localFont({
   src: [
     {
@@ -71,6 +72,7 @@ export default function RootLayout({
             <Topbar></Topbar>
             <div className="">{children}</div>
           </div>
+          <Footer></Footer>
         </body>
       </NextIntlClientProvider>
     </html>
