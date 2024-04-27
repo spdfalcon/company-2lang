@@ -9,7 +9,7 @@ export default function AddOrder() {
       
       <div className="flex justify-center text-center">
         <div className="title">
-          <div className="flex font-cinema text-[30px] md:text-[40px]">
+          <div className="md:flex font-cinema text-[30px] md:text-[40px] ">
             <h2 className="">{t("professionaldigitalagencymarketing")}</h2>
             <h2 className="gradient-orange text-transparent bg-clip-text">
               {t("lovelcode")}

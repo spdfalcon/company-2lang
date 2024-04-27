@@ -30,3 +30,9 @@ export interface BriefFeacherProps {
   title?: string;
   src: string;
 }
+export interface SocialmediaProps {
+  title: string;
+  bg: string;
+iconsm:string
+  iconmd:string
+}

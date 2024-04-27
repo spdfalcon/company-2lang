@@ -5,6 +5,8 @@ import Plans from "../_components/templates/home/Plans/Plans";
 import Brief from "../_components/templates/home/Brief/Brief";
 import BriefMd from "../_components/templates/home/Brief/BriefMd";
 import Portfolios from "../_components/templates/home/Portfolios/Portfolios";
+import SocialMedia from "../_components/modules/SocialMedia";
+import SocialMedias from "../_components/templates/home/SocialMedias";
 
 export default function Home() {
   return (
@@ -20,6 +22,9 @@ export default function Home() {
         </div>
         <div>
           <Portfolios></Portfolios>
+        </div>
+        <div className="">
+          <SocialMedias></SocialMedias>
         </div>
       </div>
       <BgBlur></BgBlur>
