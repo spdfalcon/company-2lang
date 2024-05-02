@@ -42,9 +42,16 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-      <div className={`md:hidden w-full h-full duration-300 fixed top-0 z-50 ${isShow ? `rtl:right-0 ltr:left-0` : `rtl:-right-full ltr:-left-full`}`}>
+      <div className={`md:hidden w-1/2 h-full duration-300 fixed top-0 z-50 ${isShow ? `rtl:right-0 ltr:left-0` : `rtl:-right-full ltr:-left-full`}`}>
         <HamberMenu setIsShow={setIsShow}></HamberMenu>
       </div>
+      {
+        isShow ? (
+          <div onClick={()=>setIsShow(priv=>!priv)} className="top-0 left-0 absolute w-full h-full bg-white/65 z-40"></div>
+        ):(
+          null
+        )
+      }
     </div>
   );
 }
