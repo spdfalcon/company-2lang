@@ -17,6 +17,7 @@ const BriefMd = () => {
                   width={554}
                   height={619}
                 ></Image>
+                <div className="absolute w-10 h-4/5 -right-4 rounded-xl bg-white/10 top-1/2 -translate-y-1/2 "></div>
                 <div className="absolute w-1/2 h-20 bg-second_dark rounded-[20px] right-1/4 -bottom-10 flex flex-col justify-center text-center">
                   <span className="text-[26px]">35</span>
                   <span className="text-sm ">
