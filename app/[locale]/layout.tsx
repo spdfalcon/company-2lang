@@ -72,7 +72,9 @@ export default function RootLayout({
             <Topbar></Topbar>
             <div className="">{children}</div>
           </div>
+          <div className="">
           <Footer></Footer>
+          </div>
         </body>
       </NextIntlClientProvider>
     </html>
