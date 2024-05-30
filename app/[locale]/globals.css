@@ -13,7 +13,7 @@
 }
 
 .custom-pagination {
-    @apply flex justify-center py-4;
+    @apply flex justify-center py-4 ;
   }
   
   .custom-bullet {
