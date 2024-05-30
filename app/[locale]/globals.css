@@ -11,3 +11,18 @@
         box-shadow: #00000065 2px 4px 4px 0;
     }
 }
+
+.custom-pagination {
+    @apply flex justify-center py-4;
+  }
+  
+  .custom-bullet {
+    @apply size-[10px]  bg-white/10 mx-1 rounded-full cursor-pointer;
+  }
+  
+  .custom-bullet-active {
+    @apply bg-white/40;
+  }
+
+  
+  
