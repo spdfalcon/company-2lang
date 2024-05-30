@@ -69,14 +69,14 @@ export default function SliderPlansMd() {
           <SwiperSlide>
             <Plan title="economicdesignplan"></Plan>
           </SwiperSlide>
-          <div className="flex justify-center">
-          <div className="flex justify-center w-20">
-          <div onClick={()=>swiperRef.current.slidePrev()} className="custom-prev cursor-pointer">
-            Prev
+          <div className="flex justify-center items-center mt-10">
+          <div className="flex justify-center w-fit ">
+          <div onClick={()=>swiperRef.current.slidePrev()} className="custom-prev cursor-pointer flex justify-center items-center bg-white/10 size-12 rounded-full">
+          <i className="bi bi-arrow-right flex justify-center items-center"></i>
           </div>
-          <div className="custom-pagination" />
-          <div onClick={()=>swiperRef.current.slideNext()} className="custom-next cursor-pointer">
-            Next
+          <div className="custom-pagination px-5" />
+          <div onClick={()=>swiperRef.current.slideNext()} className="custom-next cursor-pointer flex justify-center items-center bg-white/10 size-12 rounded-full">
+          <i className="bi bi-arrow-left flex justify-center items-center"></i>
           </div>
           </div>
           </div>
