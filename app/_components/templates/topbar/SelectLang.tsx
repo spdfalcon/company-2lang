@@ -18,7 +18,7 @@ export default function SelectLang() {
       <select
         defaultValue={localActive}
         onChange={onSelectChange}
-        className="bg-background outline-none cursor-pointer"
+        className="bg-transparent outline-none cursor-pointer"
         name=""
         id=""
       >
