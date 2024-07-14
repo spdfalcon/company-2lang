@@ -36,7 +36,7 @@ const BriefMd = () => {
                   </h2>
                   <h2 className="">{t("ataglance")}</h2>
                 </div>
-                <h2 className="font-light">
+                <h2 className="font-light text-gray_text">
                   {t("weareleadersinpromotingonlinebusinesses")}
                 </h2>
               </div>
@@ -72,7 +72,9 @@ const BriefMd = () => {
           ></Image>
           <div className="absolute top-0 left-0 w-full h-full bg-second_dark/90 flex justify-center items-center">
             <div className="z-10 text-center flex flex-col gap-[15px] px-8">
-              <h3 className="text-[40px] font-normal font-cinema ">{t("phonetitle")}</h3>
+              <h3 className="text-[40px] font-normal font-cinema ">
+                {t("phonetitle")}
+              </h3>
               <p className="font-light">{t("phonedesc")}</p>
               <p>09305712252</p>
             </div>

@@ -8,15 +8,15 @@ const config: Config = {
   ],
   theme: {
     container: {
-      center: true
+      center: true,
     },
     extend: {
       backgroundImage: {},
       fontFamily: {
         // yekanbakh: "yekanbakh",
         // cinema: "cinema",
-        cinema:["var(--font-cinema)"],
-        yekanbakh:["var(--font-yekanbakh)"],
+        cinema: ["var(--font-cinema)"],
+        yekanbakh: ["var(--font-yekanbakh)"],
       },
       colors: {
         background: "#030712",
@@ -26,7 +26,8 @@ const config: Config = {
         main_dark: "#0E121E",
         second_dark: "#090D18",
         light_text: "#A9A9A9",
-        badge: '#808080'
+        gray_text: "#ffffff70",
+        badge: "#808080",
       },
     },
   },

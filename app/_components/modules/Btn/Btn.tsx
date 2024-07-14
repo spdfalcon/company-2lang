@@ -4,7 +4,7 @@ import Link from "next/link";
 import React from "react";
 
 const Btn: React.FC<ButtonProps> = ({ title, bg, type, href, shadow }) => {
-  const t = useTranslations('home')
+  const t = useTranslations("home");
   return (
     <div
       className={`${
@@ -31,9 +31,9 @@ const Btn: React.FC<ButtonProps> = ({ title, bg, type, href, shadow }) => {
           : type === "box8"
           ? "w-[244px] h-[50px] rounded-[14px]"
           : ""
-      } flex justify-center items-center ${shadow ? 'shadow-btn' : ''}`}
+      } flex justify-center items-center ${shadow ? "shadow-btn" : ""}`}
     >
-      <Link href={href} className="text-center text-xs md:text-lg">
+      <Link href={href} className="text-center text-xs md:text-base">
         {t(title)}
       </Link>
     </div>

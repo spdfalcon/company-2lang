@@ -6,7 +6,9 @@ export default function Portfolio() {
   return (
     <div className="flex justify-center">
       <div className="flex flex-col gap-4 bg-second_dark p-4 rounded-[20px] relative w-[273px] h-[373]">
-        <div className="absolute bg-white/10 w-52 size-10 -top-3  -z-20 left-1/2 -translate-x-1/2 rounded-[14px]"></div>
+        <div className="absolute top-0 bg-second_dark left-1/2 -translate-x-1/2 rounded-b-[14px]  w-36 h-11 flex justify-center items-center z-50 text-xs">
+          سایت فروشگاهی
+        </div>
         <div className="relative w-[243px] h-[155px]">
           <Image alt="" src={"/home/portfolio/portfolio1.png"} fill></Image>
         </div>
@@ -19,12 +21,7 @@ export default function Portfolio() {
             است. تیم ما افتخار همکاری با این مجموعه بین المللی را داشته است.
           </p>
         </div>
-        <Btn
-          href="/"
-          bg="gradient"
-          title="examplesofteamwork"
-          type="box8"
-        ></Btn>
+        <Btn href="/" bg="gradient" title="viewdetails" type="box8"></Btn>
       </div>
     </div>
   );

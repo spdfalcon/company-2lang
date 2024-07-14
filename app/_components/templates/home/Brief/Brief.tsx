@@ -16,7 +16,7 @@ const Brief = () => {
                 </h2>
                 <h2 className="">{t("ataglance")}</h2>
               </div>
-              <h2 className="font-light text-xs md:text-base">
+              <h2 className="font-light text-xs md:text-base text-gray_text">
                 {t("weareleadersinpromotingonlinebusinesses")}
               </h2>
             </div>

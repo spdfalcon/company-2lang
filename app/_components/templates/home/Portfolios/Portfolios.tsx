@@ -17,7 +17,7 @@ export default function Portfolios() {
                 {t("lovelcode")}
               </h2>
             </div>
-            <h2 className="font-light text-xs md:text-base text-center md:text-start">
+            <h2 className="font-light text-xs md:text-base text-center md:text-start text-gray_text">
               {t("portfoliotitledesc")}
             </h2>
           </div>

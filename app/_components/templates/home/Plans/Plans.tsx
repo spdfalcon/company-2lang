@@ -20,7 +20,7 @@ export default function Plans() {
                 {t("lovelcode")}
               </h2>
             </div>
-            <h2 className="font-light text-xs md:text-base">
+            <h2 className="font-light text-xs text-gray_text md:text-base">
               {t("specialplanscustomersthebestandhighestquality")}
             </h2>
           </div>

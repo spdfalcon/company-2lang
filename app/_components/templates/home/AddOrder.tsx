@@ -6,16 +6,15 @@ export default function AddOrder() {
   const t = useTranslations("home");
   return (
     <div className="px-5 mt-11">
-      
       <div className="flex justify-center text-center">
         <div className="title">
           <div className="md:flex font-cinema text-[30px] md:text-[40px] ">
-            <h2 className="">{t("professionaldigitalagencymarketing")}</h2>
+            <h1 className="">{t("professionaldigitalagencymarketing")}</h1>
             <h2 className="gradient-orange text-transparent bg-clip-text">
               {t("lovelcode")}
             </h2>
           </div>
-          <h2 className="font-light text-xs md:text-base">
+          <h2 className="font-light text-xs text-gray_text md:text-base">
             {t("weareatthesideofsettingupyourvirtualbusiness")}
           </h2>
         </div>
