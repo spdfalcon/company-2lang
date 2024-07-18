@@ -3,6 +3,13 @@
 @tailwind utilities;
 
 
+
+@layer base {
+  textarea , input{
+    @apply outline-none
+  }
+}
+
 @layer components{
     .gradient-orange{
         @apply bg-gradient-to-r from-primery_orang to-primery_red 

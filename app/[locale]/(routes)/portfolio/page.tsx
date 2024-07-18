@@ -4,7 +4,7 @@ import React from "react";
 
 export default function page() {
   return (
-    <div className="mt-[100px] ">
+    <div className="mt-[100px] container">
       <div>
         <div className="relative header px-5 flex flex-col items-center gap-6">
           <h1 className="text-3xl font-cinema">نمونه کارهای طراحی سایت</h1>
