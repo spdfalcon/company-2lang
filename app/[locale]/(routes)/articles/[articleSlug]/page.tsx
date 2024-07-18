@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 export default function page() {
@@ -17,8 +18,8 @@ export default function page() {
                             مقالات
                         </span>
                     </div>
-                    <div className="grid grid-cols-7 gap-8">
-                        <div className="col-span-5 p-6 bg-main_dark rounded-xl flex flex-col gap-8">
+                    <div className="grid grid-cols-7 gap-6">
+                        <div className="col-span-7 lg:col-span-5 p-6 bg-main_dark rounded-xl flex flex-col gap-8">
                             <h1 className='text-lg font-bold'>
                                 شکایت صرافی کوین بیس(Coinbase) از SEC!
                             </h1>
@@ -127,13 +128,195 @@ export default function page() {
                                 </span>
                             </div>
                         </div>
-                        <div className="col-span-2 p-6 bg-main_dark rounded-xl flex flex-col gap-8 h-fit">
+                        <div className="col-span-2 p-4 bg-main_dark rounded-xl flex-col gap-6 h-fit sticky top-2 hidden lg:flex">
                             <h1 className='font-bold bg-background p-4 rounded-lg flex items-center justify-center'>
                                 تازه های روز
                             </h1>
                             <div className="flex flex-col gap-4">
-                                <div className="flex justify-between items-center">
-                                    
+                                <div className="flex justify-between items-center gap-2">
+                                    <Image
+                                        src={'/articles/3.png'}
+                                        alt=''
+                                        width={1000}
+                                        height={1000}
+                                        className='w-28 shrink-0 rounded overflow-hidden'
+                                    />
+                                    <div className="flex flex-col">
+                                        <h3 className='text-sm line-clamp-1'>
+                                            اعلامیه جدید همستر کامبت(Hamster) !
+                                        </h3>
+                                        <div className="flex gap-1 items-center text-[10px] lg:text-xs">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                                                <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+                                            </svg>
+                                            <span>
+                                                1403/04/14
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="flex justify-between items-center gap-2">
+                                    <Image
+                                        src={'/articles/3.png'}
+                                        alt=''
+                                        width={1000}
+                                        height={1000}
+                                        className='w-28 shrink-0 rounded overflow-hidden'
+                                    />
+                                    <div className="flex flex-col">
+                                        <h3 className='text-sm line-clamp-1'>
+                                            اعلامیه جدید همستر کامبت(Hamster) !
+                                        </h3>
+                                        <div className="flex gap-1 items-center text-[10px] lg:text-xs">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                                                <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+                                            </svg>
+                                            <span>
+                                                1403/04/14
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="flex justify-between items-center gap-2">
+                                    <Image
+                                        src={'/articles/3.png'}
+                                        alt=''
+                                        width={1000}
+                                        height={1000}
+                                        className='w-28 shrink-0 rounded overflow-hidden'
+                                    />
+                                    <div className="flex flex-col">
+                                        <h3 className='text-sm line-clamp-1'>
+                                            اعلامیه جدید همستر کامبت(Hamster) !
+                                        </h3>
+                                        <div className="flex gap-1 items-center text-[10px] lg:text-xs">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                                                <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+                                            </svg>
+                                            <span>
+                                                1403/04/14
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="flex justify-between items-center gap-2">
+                                    <Image
+                                        src={'/articles/3.png'}
+                                        alt=''
+                                        width={1000}
+                                        height={1000}
+                                        className='w-28 shrink-0 rounded overflow-hidden'
+                                    />
+                                    <div className="flex flex-col">
+                                        <h3 className='text-sm line-clamp-1'>
+                                            اعلامیه جدید همستر کامبت(Hamster) !
+                                        </h3>
+                                        <div className="flex gap-1 items-center text-[10px] lg:text-xs">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                                                <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+                                            </svg>
+                                            <span>
+                                                1403/04/14
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="w-full lg:w-3/4 flex flex-col gap-6">
+                        <h1 className='text-lg font-bold'>
+                            مقالات مرتبط
+                        </h1>
+                        <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6">
+                            <div className="flex flex-col relative">
+                                <div className="bg-background w-fit rounded-b-lg px-4 lg:px-6 py-2 lg:py-3 text-xs text-white absolute top-0 right-0 left-0 mx-auto">
+                                    8 تیر
+                                </div>
+                                <div className="rounded-lg overflow-hidden">
+                                    <Link href={''}>
+                                        <Image
+                                            src={'/articles/3.png'}
+                                            alt=''
+                                            width={1000}
+                                            height={1000}
+                                        />
+                                    </Link>
+                                </div>
+                                <div className="py-4 flex flex-col gap-1.5 lg:gap-3">
+                                    <h1 className='text-sm lg:text-lg font-bold'>
+                                        <Link href={''}>
+                                            شکایت صرافی کوین بیس(Coinbase) از SEC!
+                                        </Link>
+                                    </h1>
+                                    <div className="flex gap-1 items-center text-[10px] lg:text-xs">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                                        </svg>
+                                        <span>
+                                            علیرضا رضایی
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="flex flex-col relative">
+                                <div className="bg-background w-fit rounded-b-lg px-4 lg:px-6 py-2 lg:py-3 text-xs text-white absolute top-0 right-0 left-0 mx-auto">
+                                    8 تیر
+                                </div>
+                                <div className="rounded-lg overflow-hidden">
+                                    <Link href={''}>
+                                        <Image
+                                            src={'/articles/3.png'}
+                                            alt=''
+                                            width={1000}
+                                            height={1000}
+                                        />
+                                    </Link>
+                                </div>
+                                <div className="py-4 flex flex-col gap-1.5 lg:gap-3">
+                                    <h1 className='text-sm lg:text-lg font-bold'>
+                                        <Link href={''}>
+                                            شکایت صرافی کوین بیس(Coinbase) از SEC!
+                                        </Link>
+                                    </h1>
+                                    <div className="flex gap-1 items-center text-[10px] lg:text-xs">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                                        </svg>
+                                        <span>
+                                            علیرضا رضایی
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="flex flex-col relative">
+                                <div className="bg-background w-fit rounded-b-lg px-4 lg:px-6 py-2 lg:py-3 text-xs text-white absolute top-0 right-0 left-0 mx-auto">
+                                    8 تیر
+                                </div>
+                                <div className="rounded-lg overflow-hidden">
+                                    <Link href={''}>
+                                        <Image
+                                            src={'/articles/3.png'}
+                                            alt=''
+                                            width={1000}
+                                            height={1000}
+                                        />
+                                    </Link>
+                                </div>
+                                <div className="py-4 flex flex-col gap-1.5 lg:gap-3">
+                                    <h1 className='text-sm lg:text-lg font-bold'>
+                                        <Link href={''}>
+                                            شکایت صرافی کوین بیس(Coinbase) از SEC!
+                                        </Link>
+                                    </h1>
+                                    <div className="flex gap-1 items-center text-[10px] lg:text-xs">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                                        </svg>
+                                        <span>
+                                            علیرضا رضایی
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
