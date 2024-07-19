@@ -1,8 +1,11 @@
 import Btn from "@/app/_components/modules/Btn/Btn";
+import { useLocale } from "next-intl";
 import Image from "next/image";
 import React from "react";
 
 export default function Portfolio() {
+  const localActive = useLocale();
+
   return (
     <div className="flex justify-center">
       <div className="flex flex-col gap-4 bg-second_dark p-4 rounded-[20px] relative w-[273px] h-[373]">
@@ -21,7 +24,7 @@ export default function Portfolio() {
             است. تیم ما افتخار همکاری با این مجموعه بین المللی را داشته است.
           </p>
         </div>
-        <Btn href="/" bg="gradient" title="viewdetails" type="box8"></Btn>
+        <Btn href={`/${localActive}/portfolio/mohammad`} bg="gradient" title="viewdetails" type="box8"></Btn>
       </div>
     </div>
   );

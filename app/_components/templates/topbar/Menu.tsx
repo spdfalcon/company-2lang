@@ -15,6 +15,7 @@ export default function Menu() {
   const localActive = useLocale();
   const t = useTranslations("menu");
   const pathname = usePathname();
+  const mainPathName = pathname.split("/")[2];
 
   return (
     <div>
@@ -23,7 +24,7 @@ export default function Menu() {
           <li className="text-[10px] cursor-pointer lg:text-sm" key={link.id}>
             <Link
               className={
-                pathname === `/${localActive}${link.href}`
+                `/${mainPathName}` === link.href
                   ? "gradient-orange text-transparent bg-clip-text before:size-[2px] before:gradient-orange before:block relative before:absolute before:-top-px before:-right-1 before:rounded-full "
                   : pathname === `${link.href}${localActive}`
                   ? "gradient-orange text-transparent bg-clip-text before:size-[2px] before:gradient-orange before:block relative before:absolute before:-top-px before:-right-1 before:rounded-full "
