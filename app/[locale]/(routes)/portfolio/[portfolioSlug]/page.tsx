@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const page = () => {
@@ -57,8 +58,17 @@ const page = () => {
           Company Azasit
         </h2>
       </div>
-      <div className="show-portfolio flex flex-col gap-4">
-        
+      <div className="flex justify-center mt-10">
+        <div className="show-portfolio flex flex-col gap-4">
+          <div className="pc relative w-80 h-[280px]">
+            <Image
+              alt=""
+              src="/portfolio/pc.png"
+              fill
+            ></Image>
+            <div className="w-[284px] h-[178px] bg-red-500 absolute top-3 left-5 rounded"></div>
+          </div>
+        </div>
       </div>
     </div>
   );
