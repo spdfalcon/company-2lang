@@ -1,4 +1,5 @@
 import Btn from "@/app/_components/modules/Btn/Btn";
+import MainFeaturesSite from "@/app/_components/modules/porfolio/MainFeaturesSite";
 import ShowPortfolioMobile from "@/app/_components/modules/porfolio/ShowPortfolioMobile";
 import ShowPortfolioPc from "@/app/_components/modules/porfolio/ShowPortfolioPc";
 import Image from "next/image";
@@ -73,9 +74,11 @@ const page = () => {
           <ShowPortfolioMobile></ShowPortfolioMobile>
         </div>
       </div>
-      <div className=" bg-second_dark p-4 rounded-md mt-10">
-        <div>
-          <h2 className="text-xl font-cinema text-center lg:text-[40px]">نمونه طراحی سایت شرکتی آزاسیت</h2>
+      <div className=" bg-second_dark pt-5 rounded-md mt-10">
+        <div className="px-5">
+          <h2 className="text-xl font-cinema text-center lg:text-[40px]">
+            نمونه طراحی سایت شرکتی آزاسیت
+          </h2>
           <p className="text-sm mt-5 leading-7 lg:text-base">
             شرکت آزاسیت با مدیریت محمد گودرزی در سال 1403 با هدف گسترش فرهنگ
             استفاده از پارچه های الیاف طبیعی و مدلهای ایرانی شروع به فعالیت کرده
@@ -89,8 +92,23 @@ const page = () => {
           </p>
         </div>
         <div className="mt-5 flex flex-col gap-5 lg:flex-row justify-center items-center">
-          <Btn shadow  href="/" type="box6" bg="gradient" title="placeanorderforwebsitedesign"></Btn>
-          <Btn shadow href="/" type="box6" bg="background" title="placeanorderforwebsitedesign"></Btn>
+          <Btn
+            shadow
+            href="/"
+            type="box6"
+            bg="gradient"
+            title="placeanorderforwebsitedesign"
+          ></Btn>
+          <Btn
+            shadow
+            href="/"
+            type="box6"
+            bg="background"
+            title="placeanorderforwebsitedesign"
+          ></Btn>
+        </div>
+        <div className="mt-10">
+          <MainFeaturesSite></MainFeaturesSite>
         </div>
       </div>
     </div>
