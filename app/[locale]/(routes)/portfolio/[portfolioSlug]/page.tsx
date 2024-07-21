@@ -1,3 +1,6 @@
+import Btn from "@/app/_components/modules/Btn/Btn";
+import ShowPortfolioMobile from "@/app/_components/modules/porfolio/ShowPortfolioMobile";
+import ShowPortfolioPc from "@/app/_components/modules/porfolio/ShowPortfolioPc";
 import Image from "next/image";
 import React from "react";
 
@@ -57,17 +60,37 @@ const page = () => {
         <h2 className="absolute -top-10 text-3xl bg-gradient-to-b from-[#FFFFFF] to-[#030712] text-transparent bg-clip-text font-bold opacity-20">
           Company Azasit
         </h2>
+        <p className="hidden lg:flex">
+          نمونه کار طراحی سایت شرکتی آزاسیت یک شرکت اینترنتی با امکاناتی ویژه
+          است. از جمله امکانات این نمونه کار شرکت می تواند به دسته بندی محصولات
+          بر اساس برند، محصولات تخفیفی، پرفروش ترین و… همچنین قابلیت مقایسه چند
+          کالا با یکدیگر اشاره نمود.
+        </p>
       </div>
       <div className="flex justify-center mt-10">
-        <div className="show-portfolio flex flex-col gap-4">
-          <div className="pc relative w-80 h-[280px]">
-            <Image
-              alt=""
-              src="/portfolio/pc.png"
-              fill
-            ></Image>
-            <div className="w-[284px] h-[178px] bg-red-500 absolute top-3 left-5 rounded"></div>
-          </div>
+        <div className="show-portfolio flex flex-col items-center gap-4 lg:flex-row-reverse lg:items-start ">
+          <ShowPortfolioPc></ShowPortfolioPc>
+          <ShowPortfolioMobile></ShowPortfolioMobile>
+        </div>
+      </div>
+      <div className=" bg-second_dark p-4 rounded-md mt-10">
+        <div>
+          <h2 className="text-xl font-cinema text-center lg:text-[40px]">نمونه طراحی سایت شرکتی آزاسیت</h2>
+          <p className="text-sm mt-5 leading-7 lg:text-base">
+            شرکت آزاسیت با مدیریت محمد گودرزی در سال 1403 با هدف گسترش فرهنگ
+            استفاده از پارچه های الیاف طبیعی و مدلهای ایرانی شروع به فعالیت کرده
+            و هم اکنون جزو پیشتازان این عرصه بوده که سادگی ، زیبایی و رنگ را
+            زیبنده ی تن پوش های خود نموده. گام نهادن در وب‌سایت آزاسیت، حس قدم
+            زدن در بوتیکی شیک و مدرن را به شما القا می‌کند.در این نمونه طراحی
+            سایت با استفاده از رنگ‌هایی شاد و پویا، تصاویر باکیفیت از مدل‌ها و
+            لباس‌ها، و چیدمانی منظم و دسته‌بندی‌شده، تجربه‌ای بصری دلنشین را
+            برایتان به ارمغان می‌آورد و شما را به گشت و گذار در میان انبوه
+            لباس‌های جذاب دعوت می‌کند.
+          </p>
+        </div>
+        <div className="mt-5 flex flex-col gap-5 lg:flex-row justify-center items-center">
+          <Btn shadow  href="/" type="box6" bg="gradient" title="placeanorderforwebsitedesign"></Btn>
+          <Btn shadow href="/" type="box6" bg="background" title="placeanorderforwebsitedesign"></Btn>
         </div>
       </div>
     </div>
