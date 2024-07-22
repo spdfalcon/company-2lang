@@ -10,7 +10,7 @@ const MainFeaturesSite = () => {
       </h2>
       <div className="items p-5">
         <ul
-          className={`px-5 list-disc flex flex-col gap-4 mt-5 text-sm ${
+          className={`md:h-full md:grid md:grid-cols-3  px-5 list-disc flex flex-col gap-4 mt-5 text-sm ${
             isShow ? "h-52 overflow-hidden" : "h-full"
           } `}
         >
@@ -28,7 +28,7 @@ const MainFeaturesSite = () => {
           <li>پنل مدیریت پیشرفته</li>
         </ul>
       </div>
-      <div className="relative">
+      <div className="relative md:hidden">
         <div
           onClick={() => setIsShow((priv) => !priv)}
           className={`absolute ${
