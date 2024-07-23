@@ -3,7 +3,7 @@ import SocialMedia from "../../modules/SocialMedia";
 
 export default function SocialMedias() {
   return (
-    <div className="mt-[100px] flex flex-col items-center md:flex-row md:justify-center gap-10 ">
+    <div className="flex flex-col items-center md:flex-row md:justify-center gap-10 ">
       <SocialMedia
         bg="bg-gradient-to-r from-[#E825D4] to-[#F87919]"
         iconmd="/home/socialmedia/instagramsm.png"
