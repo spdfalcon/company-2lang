@@ -5,7 +5,7 @@ import Image from "next/image";
 import React from "react";
 
 const page = () => {
-    const t = useTranslations("home");
+  const t = useTranslations("home");
   return (
     <div className="mt-28 container">
       <div className="relative flex justify-center">
@@ -59,22 +59,22 @@ const page = () => {
       <Plans></Plans>
       <Portfolios></Portfolios>
       <div className="relative h-[233px] w-full  rounded-[30px] mt-[200px] overflow-hidden">
-          <Image
-            className="blur-sm"
-            alt=""
-            src={"/home/brief/phonemd.png"}
-            fill
-          ></Image>
-          <div className="absolute top-0 left-0 w-full h-full bg-second_dark/90 flex justify-center items-center">
-            <div className="z-10 text-center flex flex-col gap-[15px] px-8">
-              <h3 className="text-[40px] font-normal font-cinema ">
-                {t("phonetitle")}
-              </h3>
-              <p className="font-light">{t("phonedesc")}</p>
-              <p>09305712252</p>
-            </div>
+        <Image
+          className="blur-sm"
+          alt=""
+          src={"/home/brief/phonemd.png"}
+          fill
+        ></Image>
+        <div className="absolute top-0 left-0 w-full h-full bg-second_dark/90 flex justify-center items-center">
+          <div className="z-10 text-center flex flex-col gap-[15px] px-8">
+            <h3 className="text-[40px] font-normal font-cinema ">
+              {t("phonetitle")}
+            </h3>
+            <p className="font-light">{t("phonedesc")}</p>
+            <p>09305712252</p>
           </div>
         </div>
+      </div>
     </div>
   );
 };
