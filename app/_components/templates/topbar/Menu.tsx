@@ -7,7 +7,7 @@ export default function Menu() {
   const navLinks = [
     { id: 1, title: "mainpage", href: "/" },
     { id: 2, title: "portfolio", href: "/portfolio" },
-    { id: 3, title: "websitedesignfee", href: "/Tariff" },
+    { id: 3, title: "websitedesignfee", href: "/tariffs" },
     { id: 4, title: "articles", href: "/articles" },
     { id: 5, title: "aboutus", href: "/aboutus" },
     { id: 6, title: "contactus", href: "/contactus" },
