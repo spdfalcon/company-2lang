@@ -6,6 +6,7 @@ import React from "react";
 
 const page = () => {
   const t = useTranslations("home");
+  
   return (
     <>
       <div className="mt-28 container">
